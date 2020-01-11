@@ -2,7 +2,7 @@
     "name": "victorjfg/dawfony",
     "description": "php MVP mini-framework: template inheritance & mysql interaction helper. For educative purposes only.",
     "type": "library",
-    "license": "GPL",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "vjfernandez",
