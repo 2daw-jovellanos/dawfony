@@ -5,8 +5,8 @@
     "license": "GPL-3.0-or-later",
     "authors": [
         {
-            "name": "vjfernandez",
-            "email": "victor.fernandezgil@educa.madrid.org"
+            "name": "victorjfg"
+            
         }
     ],
     "minimum-stability": "dev",
