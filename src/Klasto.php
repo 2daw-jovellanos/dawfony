@@ -227,7 +227,7 @@ class Klasto
     {
         $r = $this->query($sql, $params, $classname);
         if (count($r)) {
-            return $r[0];
+            return $r[array_key_first($r)];
         } else {
             return false;
         }
