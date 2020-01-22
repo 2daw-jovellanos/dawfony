@@ -204,7 +204,11 @@ class Klasto
             }
             if ($row) {
                 if ($hayId) {
-                    $resultado[$row->id] = $row;
+                    if ($classname) {
+                        $resultado[$row->id] = $row;
+                    } else {
+                        $resultado[$row["id"]] = $row;
+                    }
                 } else { 
                     array_push($resultado, $row);
                 } 
